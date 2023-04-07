@@ -1,0 +1,89 @@
+*{
+    margin: 16px 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+/* CSS styling for the page title */
+h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+/* CSS styling for the navigation menu */
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0.5rem 1.5rem;
+  font-size: 3rem;
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  transform: scale(1.5);
+  transition: all 0.25s linear;
+
+}
+
+/* CSS styling for the page content */
+.main-container {
+  max-width: 60rem;
+  height: 16rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* CSS styling for the page footer */
+
+.footer-txt {
+  max-width: 60rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 1rem;
+}
+
+.footer-txt > a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-txt > a:visited {
+  color: black;
+}
+
+.footer-txt > a:hover {
+  color: crimson;
+}
+
